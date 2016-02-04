@@ -1,0 +1,21 @@
+{
+    "name": "aether-framework/config",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Micheal Wilkinson",
+            "email": "aether-framework@hrafn.xyz"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "vlucas/phpdotenv": "^2.1"
+    },
+    "suggest": {
+        "vlucas/phpdotenv": "Provides environment support",
+        "symfony/yaml": "Provides YAML support"
+    }
+}
