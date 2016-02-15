@@ -15,10 +15,11 @@ use AetherFramework\Config\ConfigInterface;
 class ConfigData extends AbstractConfig implements ConfigInterface
 {
     protected $configData;
+
     public function __construct(array $configData)
     {
-        foreach($configData as $key=>$value) {
-            if(is_array($value)) {
+        foreach ($configData as $key => $value) {
+            if (is_array($value)) {
                 $this->configData[$key] = new self($value);
             } else {
                 $this->configData[$key] = $value;

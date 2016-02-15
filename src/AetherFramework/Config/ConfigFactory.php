@@ -15,13 +15,14 @@ use AetherFramework\Config\Exception\InvalidConfig;
 
 class Factory
 {
-    public static function jsonConfig($pathToJsonFile) {
-        if(!file_exists($pathToJsonFile)) {
+    public static function jsonConfig($pathToJsonFile)
+    {
+        if (!file_exists($pathToJsonFile)) {
             throw new CouldNotFindConfigfile(sprintf('Could not find JSON config file %s', $pathToJsonFile));
         }
         $jsonString = file_get_contents($pathToJsonFile);
 
-        if(!json_decode($jsonString)) {
+        if (!json_decode($jsonString)) {
             throw new InvalidConfig(sprintf('Config file %s does not contain valid JSON', $pathToJsonFile));
         }
         $jsonData = json_decode($jsonString, true);

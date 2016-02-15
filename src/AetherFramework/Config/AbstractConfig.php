@@ -17,6 +17,7 @@ abstract class AbstractConfig implements ConfigInterface, LoggerAwareInterface
 {
     use HasLogger;
     protected $_notSetValue;
+
     public function __construct()
     {
         $this->_notSetValue = md5(time());
@@ -25,7 +26,7 @@ abstract class AbstractConfig implements ConfigInterface, LoggerAwareInterface
     public function getRequired($variable)
     {
         $value = $this->getVariable($variable, $this->_notSetValue);
-        if($value !== $this->_notSetValue) {
+        if ($value !== $this->_notSetValue) {
             return $value;
         } else {
             throw new RequiredVariableNotSet(sprintf('Variable %s not available', $variable));
@@ -36,8 +37,8 @@ abstract class AbstractConfig implements ConfigInterface, LoggerAwareInterface
     {
         try {
             return $this->getRequired($name);
-        } catch(RequiredVariableNotSet $exception) {
-            $this->getLogger()->logNotice(sprintf('Attempting to directly retrieve unset config variable: %s' , $name), ['class' => __CLASS__]);
+        } catch (RequiredVariableNotSet $exception) {
+            $this->getLogger()->logNotice(sprintf('Attempting to directly retrieve unset config variable: %s', $name), ['class' => __CLASS__]);
             return null;
         }
     }
