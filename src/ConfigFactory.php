@@ -13,7 +13,7 @@ use AetherFramework\Config\Adapter\ConfigData;
 use AetherFramework\Config\Exception\CouldNotFindConfigfile;
 use AetherFramework\Config\Exception\InvalidConfig;
 
-class Factory
+class ConfigFactory
 {
     public static function jsonConfig($pathToJsonFile)
     {
