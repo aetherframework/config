@@ -8,7 +8,8 @@
     }
   ],
   "require": {
-    "symfony/yaml": "^3.0"
+    "symfony/yaml": "^3.0",
+    "delphicokami/aether-framework-base": "^0.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.0",
