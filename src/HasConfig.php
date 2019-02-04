@@ -6,10 +6,10 @@
  * Time: 07:21
  */
 
-namespace AetherFramework\Config;
+namespace Aether\Config;
 
 
-use AetherFramework\Config\Exception\InvalidConfig;
+use Aether\Config\Exception\InvalidConfig;
 
 trait HasConfig
 {

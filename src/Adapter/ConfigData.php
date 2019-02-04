@@ -6,11 +6,11 @@
  * Time: 17:27
  */
 
-namespace AetherFramework\Config\Adapter;
+namespace Aether\Config\Adapter;
 
 
-use AetherFramework\Config\AbstractConfig;
-use AetherFramework\Config\ConfigInterface;
+use Aether\Config\AbstractConfig;
+use Aether\Config\ConfigInterface;
 
 class ConfigData extends AbstractConfig implements ConfigInterface
 {

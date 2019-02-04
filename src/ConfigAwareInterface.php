@@ -6,7 +6,7 @@
  * Time: 07:20
  */
 
-namespace AetherFramework\Config;
+namespace Aether\Config;
 
 
 interface ConfigAwareInterface

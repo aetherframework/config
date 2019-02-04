@@ -6,11 +6,11 @@
  * Time: 18:03
  */
 
-namespace AetherFramework\Config\Adapter;
+namespace Aether\Config\Adapter;
 
 
-use AetherFramework\Config\AbstractConfig;
-use AetherFramework\Config\ConfigInterface;
+use Aether\Config\AbstractConfig;
+use Aether\Config\ConfigInterface;
 
 
 class Environment extends AbstractConfig implements ConfigInterface
