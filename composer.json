@@ -1,29 +1,15 @@
 {
-  "name": "delphicokami/aether-framework-config",
+  "name": "aetherframework/config",
   "license": "LGPL-3.0+",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:DelphicOkami/aether-framework-http-stream.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:DelphicOkami/aether.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:DelphicOkami/aether-framework-config.git"
-    }
-  ],
   "authors": [
     {
       "name": "Micheal Wilkinson",
-      "email": "aether-framework@hrafn.xyz"
+      "email": "aetherframework@hrafn.xyz"
     }
   ],
   "require": {
     "symfony/yaml": "^3.0",
-    "delphicokami/aether": "dev-master as 1.0.0"
+    "aetherframework/base": "dev-master as 1.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.0",
