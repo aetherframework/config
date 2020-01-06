@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42f4e2b5ec72041e33b65c32b9706ffc",
+    "content-hash": "7745aa0b64a3d7c14a4ca7d264d24ffb",
     "packages": [
         {
             "name": "aetherframework/base",
-            "version": "dev-master",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aetherframework/base.git",
@@ -1731,9 +1731,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "aetherframework/base": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
