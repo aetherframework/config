@@ -6,12 +6,12 @@
  * Time: 17:51
  */
 
-namespace Aether\Config;
+namespace AEtherFramework\Config;
 
 
-use Aether\Config\Adapter\ConfigData;
-use Aether\Config\Exception\CouldNotFindConfigfile;
-use Aether\Config\Exception\InvalidConfig;
+use AEtherFramework\Config\Adapter\ConfigData;
+use AEtherFramework\Config\Exception\CouldNotFindConfigfile;
+use AEtherFramework\Config\Exception\InvalidConfig;
 
 class ConfigFactory
 {

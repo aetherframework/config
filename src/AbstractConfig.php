@@ -6,12 +6,12 @@
  * Time: 17:13
  */
 
-namespace Aether\Config;
+namespace AEtherFramework\Config;
 
 
-use Aether\Config\Exception\RequiredVariableNotSet;
-use Aether\Log\HasLogger;
-use Aether\Log\LoggerAwareInterface;
+use AEtherFramework\Config\Exception\RequiredVariableNotSet;
+use AEtherFramework\Log\HasLogger;
+use AEtherFramework\Log\LoggerAwareInterface;
 
 abstract class AbstractConfig implements ConfigInterface, LoggerAwareInterface
 {

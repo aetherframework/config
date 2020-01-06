@@ -1,2 +1,2 @@
-# Aether Framework Config
+# AEtherFramework Framework Config
 - Concrete implementations for config interfaces
