@@ -19,6 +19,7 @@ class Environment extends AbstractConfig implements ConfigInterface
     public function getVariable($variable, $defaultValue)
     {
         $retrievedValue = getenv($variable);
-        return !!$retrievedValue ? $defaultValue : $retrievedValue;
+
+        return false === $retrievedValue ? $defaultValue : $retrievedValue;
     }
 }
